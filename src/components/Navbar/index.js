@@ -21,7 +21,7 @@ import {
   Apps,
   ContactMail
 } from "@material-ui/icons";
-// import avatar from "../avatar.png";
+import avatar from "../../Images/avatar.png";
 
 //CSS STYLES
 
@@ -77,7 +77,7 @@ const NavBar = () => {
     className={classes.menuSliderContainer} 
     component="div"
     onClick={toggleSlider(slider, false)}>
-    {/* <Avatar className={classes.avatar} src={avatar} alt="Jesica Helft"/> */}
+    <Avatar className={classes.avatar} src={avatar} alt="Jesica Helft"/>
     <Divider />
     <List>
       {menuItems.map((lsItem, key) => (

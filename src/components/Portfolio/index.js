@@ -60,18 +60,18 @@ const Portfolio = () => {
                   animi affectio suum cuique.
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Give it a Try!
-                </Button>
-                <Button size="small" color="primary">
-                  See the Code!
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Give it a Try!
+              </Button>
+              <Button size="small" color="primary">
+                See the Code!
+              </Button>
+            </CardActions>
           </Card>
-          </Grid>
-          {/* Project 2 */}
+        </Grid>
+        {/* Project 2 */}
         <Grid item xs={12} sm={8} md={6}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
@@ -94,15 +94,15 @@ const Portfolio = () => {
                   animi affectio suum cuique.
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Give it a Try!
-                </Button>
-                <Button size="small" color="primary">
-                  See the Code!
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Give it a Try!
+              </Button>
+              <Button size="small" color="primary">
+                See the Code!
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/* Project 3 */}
@@ -128,15 +128,15 @@ const Portfolio = () => {
                   animi affectio suum cuique.
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Give it a Try!
-                </Button>
-                <Button size="small" color="primary">
-                  See the Code!
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Give it a Try!
+              </Button>
+              <Button size="small" color="primary">
+                See the Code!
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/* Project 4 */}
@@ -162,15 +162,15 @@ const Portfolio = () => {
                   animi affectio suum cuique.
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Give it a Try!
-                </Button>
-                <Button size="small" color="primary">
-                  See the Code!
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Give it a Try!
+              </Button>
+              <Button size="small" color="primary">
+                See the Code!
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/* Project 5 */}
@@ -196,15 +196,15 @@ const Portfolio = () => {
                   animi affectio suum cuique.
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Give it a Try!
-                </Button>
-                <Button size="small" color="primary">
-                  See the Code!
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Give it a Try!
+              </Button>
+              <Button size="small" color="primary">
+                See the Code!
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
         {/* Project 6 */}
@@ -230,15 +230,15 @@ const Portfolio = () => {
                   animi affectio suum cuique.
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Give it a Try!
-                </Button>
-                <Button size="small" color="primary">
-                  See the Code!
-                </Button>
-              </CardActions>
             </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Give it a Try!
+              </Button>
+              <Button size="small" color="primary">
+                See the Code!
+              </Button>
+            </CardActions>
           </Card>
         </Grid>
       </Grid>

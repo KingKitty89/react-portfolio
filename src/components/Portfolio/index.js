@@ -1,11 +1,13 @@
-import React from "react"
+import React from "react";
+import NavBar from "../../components/Navbar";
 
 const Portfolio = () => {
-    return (
-        <div>
-            Portfolio Component
-        </div>
-    )
-}
+  return (
+    <>
+      <NavBar />
+      Portfolio Component
+    </>
+  );
+};
 
-export default Portfolio
+export default Portfolio;

@@ -48,15 +48,10 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 1
+                  Day Planner
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atque
-                  his de rebus et splendida est eorum et illustris oratio. Quod
-                  autem principium officii quaerunt, melius quam Pyrrho;
-                  Scaevola tribunus plebis ferret ad plebem vellentne de ea re
-                  quaeri. Iam id ipsum absurdum, maximum malum neglegi. Quae
-                  animi affectio suum cuique.
+                  Plan out your work day with this handy scheduler.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -82,15 +77,10 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 2
+                  Eat Da Burger
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atque
-                  his de rebus et splendida est eorum et illustris oratio. Quod
-                  autem principium officii quaerunt, melius quam Pyrrho;
-                  Scaevola tribunus plebis ferret ad plebem vellentne de ea re
-                  quaeri. Iam id ipsum absurdum, maximum malum neglegi. Quae
-                  animi affectio suum cuique.
+                  Track your burger consumption.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -116,15 +106,11 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 3
+                  OnHand
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atque
-                  his de rebus et splendida est eorum et illustris oratio. Quod
-                  autem principium officii quaerunt, melius quam Pyrrho;
-                  Scaevola tribunus plebis ferret ad plebem vellentne de ea re
-                  quaeri. Iam id ipsum absurdum, maximum malum neglegi. Quae
-                  animi affectio suum cuique.
+                  A simple solution for meals and cocktails based on ingredients
+                  you have OnHand.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -150,15 +136,10 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 4
+                  Password Generator
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atque
-                  his de rebus et splendida est eorum et illustris oratio. Quod
-                  autem principium officii quaerunt, melius quam Pyrrho;
-                  Scaevola tribunus plebis ferret ad plebem vellentne de ea re
-                  quaeri. Iam id ipsum absurdum, maximum malum neglegi. Quae
-                  animi affectio suum cuique.
+                  Create a strong and secure password.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -184,15 +165,10 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 5
+                  Simply Somm
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atque
-                  his de rebus et splendida est eorum et illustris oratio. Quod
-                  autem principium officii quaerunt, melius quam Pyrrho;
-                  Scaevola tribunus plebis ferret ad plebem vellentne de ea re
-                  quaeri. Iam id ipsum absurdum, maximum malum neglegi. Quae
-                  animi affectio suum cuique.
+                  A sommelier at your fingertips.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -218,15 +194,10 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Project 6
+                  Employee Template Generator
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atque
-                  his de rebus et splendida est eorum et illustris oratio. Quod
-                  autem principium officii quaerunt, melius quam Pyrrho;
-                  Scaevola tribunus plebis ferret ad plebem vellentne de ea re
-                  quaeri. Iam id ipsum absurdum, maximum malum neglegi. Quae
-                  animi affectio suum cuique.
+                  Build your team of employees.
                 </Typography>
               </CardContent>
             </CardActionArea>

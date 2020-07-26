@@ -73,7 +73,6 @@ const Contact = () => {
             fullWidth={true}
             label="Email"
             variant="outlined"
-            variant="outlined"
             inputProps={{ style: { color: "white" } }}
             margin="dense"
             size="medium"
@@ -83,7 +82,6 @@ const Contact = () => {
           <InputField
             fullWidth={true}
             label="Message"
-            variant="outlined"
             variant="outlined"
             inputProps={{ style: { color: "white" } }}
             margin="dense"

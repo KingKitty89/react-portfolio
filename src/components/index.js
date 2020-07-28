@@ -8,8 +8,9 @@ import { makeStyles } from "@material-ui/styles";
 const useStyles = makeStyles({
   particlesCanvas: {
     position: "absolute",
-    opacity: "0.3"
+    opacity: "0.4"
   },
+
 });
 
 const Home = () => {
@@ -47,7 +48,7 @@ const Home = () => {
               },
             },
             opacity: {
-              value: 1,
+              value: 5,
               random: true,
               animation: {
                 enable: true,
@@ -58,6 +59,7 @@ const Home = () => {
             },
           },
         }}
+        
       />
     </>
   );

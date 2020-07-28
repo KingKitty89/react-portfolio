@@ -13,8 +13,8 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "tomato",
-    borderColor: "tomato",
+    color: "#880e4f",
+    borderColor: "#880e4f",
   },
 }));
 
@@ -22,20 +22,20 @@ const useStyles = makeStyles((theme) => ({
 const InputField = withStyles({
   root: {
     "& label.Mui-focused": {
-      color: "tomato",
+      color: "#880e4f",
     },
     "& label": {
-      color: "tan",
+      color: "yellow",
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "tan",
+        borderColor: "yellow",
       },
       "&:hover fieldset": {
-        borderColor: "tan",
+        borderColor: "yellow",
       },
       "&.Mui-focused fieldset": {
-        borderColor: "tan",
+        borderColor: "yellow",
       },
     },
   },
@@ -45,19 +45,39 @@ const Contact = () => {
   const classes = useStyles();
 
   return (
-    <Box component="div" style={{ background: "#233", height: "100vh" }}>
+    <Box component="div" style={{ background: "#4bacb8", height: "100vh" }}>
       <NavBar />
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography
-            variant="h5"
+            variant="h4"
             style={{
-              color: "tomato",
+              color: "#880e4f",
               textAlign: "center",
               textTransform: "uppercase",
             }}
           >
             Contact me...
+          </Typography>
+          <Typography
+            variant="h5"
+            style={{
+              color: "#880e4f",
+              textAlign: "center",
+              textTransform: "uppercase",
+            }}
+          >
+            Phone: 954.914.0529
+          </Typography>
+          <Typography
+            variant="h5"
+            style={{
+              color: "#880e4f",
+              textAlign: "center",
+              textTransform: "uppercase",
+            }}
+          >
+           Email: jessicahelft@gmail.com
           </Typography>
           <InputField
             fullWidth={true}
@@ -93,7 +113,7 @@ const Contact = () => {
             fullWidth={true}
             endIcon={<SendIcon />}
           >
-            Contact me
+            submit
           </Button>
         </Box>
       </Grid>

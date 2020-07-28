@@ -10,6 +10,7 @@ import {
   CardMedia,
   Button,
   Typography,
+  Divider
 } from "@material-ui/core";
 import NavBar from "../../components/Navbar";
 import project1 from "../../assets/dayplannergif.gif";
@@ -21,20 +22,30 @@ import project6 from "../../assets/teamgen.gif";
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#233",
+    background: "#4bacb8",
     height: "100%",
   },
   cardContainer: {
     maxWidth: 345,
-    margin: "5rem auto",
+    margin: "5rem auto 5rem auto",
+  },
+  heading: {
+    color: "#880e4f",
+    padding: "3rem 0",
+    textTransform: "uppercase",
   },
 });
 
 const Portfolio = () => {
   const classes = useStyles();
   return (
+    
     <Box component="div" className={classes.mainContainer}>
       <NavBar />
+      <Typography variant="h4" align="center" className={classes.heading}>
+      Recent Projects
+    </Typography>
+    <Divider />
       <Grid container justify="center">
         {/* Project 1 */}
         <Grid item xs={12} sm={8} md={6}>
@@ -56,10 +67,10 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://kingkitty89.github.io/Day-Planner/"  target="_blank">
                 Give it a Try!
               </Button>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://github.com/KingKitty89/Day-Planner" target="_blank">
                 See the Code!
               </Button>
             </CardActions>
@@ -85,10 +96,10 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://salty-ravine-30366.herokuapp.com/" target="_blank">
                 Give it a Try!
               </Button>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://github.com/KingKitty89/burger" target="_blank" >
                 See the Code!
               </Button>
             </CardActions>
@@ -115,10 +126,10 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://msplawn.github.io/on-hand/" target="_blank" >
                 Give it a Try!
               </Button>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://github.com/msplawn/on-hand" target="_blank">
                 See the Code!
               </Button>
             </CardActions>
@@ -144,10 +155,10 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://kingkitty89.github.io/PasswordGenerator" target="_blank">
                 Give it a Try!
               </Button>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://github.com/KingKitty89/PasswordGenerator" target="_blank">
                 See the Code!
               </Button>
             </CardActions>
@@ -173,10 +184,10 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://metric-drake-50737.herokuapp.com/" target="_blank">
                 Give it a Try!
               </Button>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://github.com/KingKitty89/project2" target="_blank">
                 See the Code!
               </Button>
             </CardActions>
@@ -202,10 +213,7 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
-                Give it a Try!
-              </Button>
-              <Button size="small" color="primary">
+              <Button size="small" color="primary" href="https://github.com/KingKitty89/employee-team-generator-template" target="_blank">
                 See the Code!
               </Button>
             </CardActions>

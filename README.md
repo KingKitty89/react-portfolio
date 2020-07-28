@@ -5,7 +5,7 @@
 
 ## **Live Link**
 
-<h2><a href ="">Live Link</a></h2>
+<h2><a href ="https://kingkitty89.github.io/react-portfolio">Live Link</a></h2>
 
 ## **Description**
 A portfolio showing my most recent projects, contact information, and resume all created with React.js.

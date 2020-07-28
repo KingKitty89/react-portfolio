@@ -48,7 +48,7 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
-    listPath: "/home" 
+    listPath: "/" 
     //When deployed this has to be "/Home"
   },
   // {

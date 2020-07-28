@@ -8,7 +8,7 @@
 <h2><a href ="">Live Link</a></h2>
 
 ## **Description**
-A portfolio showing my most recent projects, contact information, and resume created with React.js.
+A portfolio showing my most recent projects, contact information, and resume all created with React.js.
 
 ## **Technology Stack**
 * React.js

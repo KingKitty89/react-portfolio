@@ -13,9 +13,9 @@ const useStyles = makeStyles({
       maxWidth: 250,
     },
     "& .MuiSvgIcon-root": {
-      fill: "tan",
+      fill: "#fce4ec",
       "&:hover": {
-        fill: "tomato",
+        fill: "white",
         fontSize: "1.8rem",
       },
     },
@@ -25,28 +25,38 @@ const useStyles = makeStyles({
 const Footer = () => {
   const classes = useStyles();
   return (
-    <BottomNavigation width="auto" style={{ background: "#222" }}>
+   
+    <BottomNavigation width="auto" style={{ background: "#880e4f" }}>
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<FacebookIcon />}
+        href="https://www.facebook.com/jessica.helft.7"
+        target="_blank"
       />
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<LinkedInIcon />}
+        href="https://www.linkedin.com/in/jessicahelft/"
+        target="_blank"
       />
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<InstagramIcon />}
+        href="https://www.instagram.com/jessica__shmessica/"
+        target="_blank"
       />
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<GitHubIcon />}
+        href="https://github.com/KingKitty89"
+        target="_blank"
       />
     </BottomNavigation>
+   
   );
 };
 

@@ -48,7 +48,7 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
-    listPath: "/react-portfolio", 
+    listPath: "/", 
     //When deployed this has to be "/Home"
   },
   // {
